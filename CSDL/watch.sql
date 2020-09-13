@@ -1,8 +1,9 @@
-
+﻿
 create TABLE type_account(  
 	id int not null PRIMARY KEY AUTO_INCREMENT,
 	name varchar(50) not null
 );
+
 
 INSERT into type_account VALUES (null, 'user');
 INSERT into type_account VALUES (null, 'admin');
